@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Activity Planner</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-side">
+            <h2>Record Activity</h2>
+            <form id="recordForm">
+                <label for="activity">Activity:</label>
+                <input type="text" id="activity" name="activity" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                <button type="submit">Set Activity</button>
+            </form>
+        </div>
+
+        <div class="right-side">
+            <h2>Upcoming Activities</h2>
+            <div id="upcomingActivities">
+                <!-- Activities will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Add an audio element for the ringtone -->
+    <audio id="alarmAudio" src="https://res.cloudinary.com/dy6kog5ja/video/upload/v1721480900/527940-Pager_Alarm_02_cvxjba.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
