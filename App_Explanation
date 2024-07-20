@@ -1,0 +1,41 @@
+AI Voice Alarm Using Gemini API
+
+Overview
+This Activity Planner application integrates AI to enhance traditional alarm systems by using AI-generated voice messages instead of traditional alarms. This innovation addresses the issue where users forget the reason for setting an alarm.
+Key Features
+1.	Record Activity: Allows users to input an activity along with the date and time.
+2.	Upcoming Activities Display: Lists all upcoming activities.
+3.	AI Voice Alarms: Generates and plays AI voice messages for alarms, reminding users of their scheduled activities.
+4.	Desktop Notifications: Provides visual alerts using browser notifications.
+5.	Voice Synthesis: Converts text reminders into AI voice messages using a voice synthesis API.
+Technologies Used
+1.	HTML/CSS: For the structure and styling of the web application.
+2.	JavaScript: For handling user interactions and integrating with APIs.
+3.	Gemini API: For fetching additional data or performing backend-related tasks.
+4.	Web Speech API: For basic text-to-speech conversion.
+5.	Voice Synthesis API (e.g., Google Text-to-Speech API): For generating AI voice alarms.
+Application Flow
+1.	Page Load:
+o	The application requests notification permissions.
+o	It greets the user with a spoken message: "Have a great day!".
+2.	Form Submission:
+o	Users input an activity, date, and time.
+o	The application verifies the input and schedules an AI voice alarm if the date and time are valid.
+
+
+3.	AI Voice Alarm Trigger:
+o	At the scheduled time, the application uses the Web Speech API or a voice synthesis API to generate an AI voice reminder.
+o	It displays a desktop notification and plays the AI voice message, reminding the user of their activity.
+4.	Date Input Change:
+o	When the user selects a date, the application speaks a motivational quote based on the day of the week.
+o	It optionally highlights Sundays in the date input field.
+Voice Synthesis for AI Voice Alarms
+The core feature of this application is the AI-generated voice alarms. This can be achieved using the Web Speech API for basic text-to-speech or advanced voice synthesis APIs like the Google Text-to-Speech API for higher quality AI voice generation.
+
+Benefits
+•	Personalization: Users receive personalized AI voice reminders, enhancing the recall of the purpose behind each alarm.
+•	Efficiency: Helps users stay organized and ensures they don't miss important activities.
+•	Innovation: Integrates AI technology with traditional alarm systems, providing a more engaging and effective alarm experience.
+
+
+App link: https://salmon-michal-38.tiiny.site
