@@ -1,7 +1,7 @@
 AI Voice Alarm Using Gemini API
 
 Overview
-This Activity Planner application integrates AI to enhance traditional alarm systems by using AI-generated voice messages instead of traditional alarms. This innovation addresses the issue where users forget the reason for setting an alarm.
+This Activity Planner application integrates AI to enhance traditional alarm systems by using AI-generated voice messages instead of traditional alarm. This innovation addresses the issue where users forget the reason for setting an alarm.
 Key Features
 1.	Record Activity: Allows users to input an activity along with the date and time.
 2.	Upcoming Activities Display: Lists all upcoming activities.
